@@ -12,10 +12,4 @@ You can view the relevant pull requests to Mathlib at the following links:
 - [Pull Request #13248](https://github.com/leanprover-community/mathlib4/pull/13248)
 - [Pull Request #14163](https://github.com/leanprover-community/mathlib4/pull/14163)
 
-## Installation
 
-To set up the project locally, follow these steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/yourrepository.git
