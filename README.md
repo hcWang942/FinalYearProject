@@ -2,9 +2,20 @@
 
 This repository stores my final year project **Formalization of Auction Theory Using Lean and Mathlib**.
 
-## Project Description
+## Abstract
 
-This project involves the formalization of key concepts and theorems in auction theory using the Lean proof assistant and Mathlib library. The focus is on providing formal proofs and definitions that align with the theoretical foundations of auction theory.
+This thesis presents the formalization of fundamental theorems in Auction Theory using the Lean theorem prover and its accompanying mathematical library, Mathlib. Auction Theory, a component of economic theory, involves the design and analysis of auction mechanisms, which are formalized here to ensure mathematical precision. This project focuses on formalizing theorems related to first-price and second-price auctions, as well as Myerson's Lemma.
+
+First, the fundamental concepts of first-price and second-price auctions are explored. In a first-price auction, the highest bidder wins and pays their bid amount, while in a second-price auction, the highest bidder wins but pays the second-highest bid. Formal statements and proofs for theorems regarding dominant strategies and bidder utility are developed. Specifically, the first-price auction is shown to have no dominant strategy, whereas the second-price auction incentivizes bidders to bid their true valuations.
+
+Myerson's Lemma, a cornerstone of auction theory, is also formalized. It states that an allocation rule is implementable if and only if it is monotone, and it provides a unique payment rule ensuring the mechanism is dominant strategy incentive compatible (DSIC). The formalization process includes defining auction structures, bidding strategies, utility functions, and formal proofs of these theorems using Lean.
+
+The contribution of these formalized results into Mathlib4 demonstrates the capabilities of modern proof assistants in handling complex economic models. This work not only contributes to the Lean community but also enhances the application of formal methods in economics and computer science, paving the way for future research and development in auction theory and mechanism design.
+
+## Repository
+
+This project is available at the following repository:
+[https://github.com/math-xmum/gametheory](https://github.com/math-xmum/gametheory)
 
 ## Relevant Pull Requests to Mathlib
 
